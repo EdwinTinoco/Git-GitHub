@@ -1,0 +1,44 @@
+Quick Git Cheatsheet:
+
+Starting a new repository:
+
+-cd into project directory
+
+-Initialize git repository
+
+$ git init
+
+-Track all files for changes
+
+$ git add .
+
+-Commit all changes / stage changes
+
+$ git commit -m "Initial Commit"
+
+Create a github repository, copy commands
+
+Add remote
+
+$ git remote add some remote origin
+
+Push changes to github
+
+$ git push -u origin master
+
+After Initial commit
+
+Add files
+
+$ git add .
+
+Commit changes
+
+$ git commit -m "Some explicit message explaining your changes"
+
+Push to github
+
+$ git push
+
+Check status frequently to verify
+$ git status
